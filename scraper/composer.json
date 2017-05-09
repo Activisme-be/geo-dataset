@@ -14,5 +14,11 @@
     },
     "require-dev": {
         "symfony/var-dumper": "^3.2"
+    },
+    "autoload": {
+        "psr-4":{
+            "ActivismeBe\\Scraper\\": "src/"
+        },
+        "files": ["src/Helper.php"]
     }
 }
