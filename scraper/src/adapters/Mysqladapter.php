@@ -206,7 +206,7 @@ class MysqlAdapter
       */
      public function beginTransaction()
      {
-         return $this-dbh->beginTransaction();
+         return $this->dbh->beginTransaction();
      }
 
      /**
