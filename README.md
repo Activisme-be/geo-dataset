@@ -1,5 +1,8 @@
-# geo-dataset
+# Geo-dataset
 Because government don't provide geo datasets
+
+## License and copyright.
+All the code is this repository is released under the MIT license.
 
 ## Versioning
 
