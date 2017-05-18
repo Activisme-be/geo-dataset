@@ -161,7 +161,7 @@ class MysqlAdapter
       */
      public function rowCount()
      {
-         retturn $this->stmt->rowCount();
+         return $this->stmt->rowCount();
      }
 
      /**

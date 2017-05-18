@@ -10,7 +10,8 @@
         }
     ],
     "require": {
-        "symfony/console": "^3.2"
+        "symfony/console": "^3.2",
+        "vlucas/phpdotenv": "^2.4"
     },
     "require-dev": {
         "symfony/var-dumper": "^3.2"
@@ -18,7 +19,6 @@
     "autoload": {
         "psr-4":{
             "ActivismeBe\\Scraper\\": "src/"
-        },
-        "files": ["src/Helper.php"]
+        }
     }
 }
