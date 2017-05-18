@@ -21,7 +21,7 @@ class CitiesCommand extends BaseCommand
      */
     protected function configure() 
     {
-        $this->setName('scrape:cities')->setDescription('Export all the Belgian cities');
+        $this->setName('scrape:cities-json')->setDescription('Export all the Belgian cities');
     }
 
     /**
